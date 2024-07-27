@@ -1,0 +1,64 @@
+.note-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-input,
+  .note-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .note-input:focus,
+  .note-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .note-textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .note-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .note-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 600px) {
+    .note-form {
+      padding: 15px;
+    }
+  
+    .note-input,
+    .note-textarea {
+      font-size: 14px;
+    }
+  
+    .note-button {
+      font-size: 14px;
+    }
+  }
+  

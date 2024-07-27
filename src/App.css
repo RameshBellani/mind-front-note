@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.app-main {
+  padding: 20px;
+}
